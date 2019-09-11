@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5920768E3CC2B1DC7E94A052 /* Pods_StanfordAssignment4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF8A2FAD42D696940A0E123 /* Pods_StanfordAssignment4.framework */; };
 		A56733D22328C6EC0015C41D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56733D12328C6EC0015C41D /* AppDelegate.swift */; };
 		A56733D72328C6EC0015C41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56733D52328C6EC0015C41D /* Main.storyboard */; };
 		A56733D92328C6ED0015C41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56733D82328C6ED0015C41D /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9EBEC0AF3215E6AAF9405027 /* Pods-StanfordAssignment4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StanfordAssignment4.release.xcconfig"; path = "Target Support Files/Pods-StanfordAssignment4/Pods-StanfordAssignment4.release.xcconfig"; sourceTree = "<group>"; };
 		A56733CE2328C6EC0015C41D /* StanfordAssignment4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordAssignment4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56733D12328C6EC0015C41D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56733D62328C6EC0015C41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +79,8 @@
 		A56734362328DAA20015C41D /* AnimatedSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56734382328DAA20015C41D /* AnimatedSetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSetUITests.swift; sourceTree = "<group>"; };
 		A567343A2328DAA20015C41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB77AB9BDA18ED33430CE81F /* Pods-StanfordAssignment4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StanfordAssignment4.debug.xcconfig"; path = "Target Support Files/Pods-StanfordAssignment4/Pods-StanfordAssignment4.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF8A2FAD42D696940A0E123 /* Pods_StanfordAssignment4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StanfordAssignment4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5920768E3CC2B1DC7E94A052 /* Pods_StanfordAssignment4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FE96581B4B5817FB68ECDA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFF8A2FAD42D696940A0E123 /* Pods_StanfordAssignment4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		491965D3E23BD8B543ED25C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB77AB9BDA18ED33430CE81F /* Pods-StanfordAssignment4.debug.xcconfig */,
+				9EBEC0AF3215E6AAF9405027 /* Pods-StanfordAssignment4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A56733C52328C6EB0015C41D = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +133,8 @@
 				A56734272328D04D0015C41D /* AnimatedSetTests */,
 				A56734372328DAA20015C41D /* AnimatedSetUITests */,
 				A56733CF2328C6EC0015C41D /* Products */,
+				491965D3E23BD8B543ED25C8 /* Pods */,
+				3FE96581B4B5817FB68ECDA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +227,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A56733E02328C6ED0015C41D /* Build configuration list for PBXNativeTarget "StanfordAssignment4" */;
 			buildPhases = (
+				A56734402328DC330015C41D /* ShellScript */,
+				49E9EE038DE25AFB42DCCDAF /* [CP] Check Pods Manifest.lock */,
 				A56733CA2328C6EC0015C41D /* Sources */,
 				A56733CB2328C6EC0015C41D /* Frameworks */,
 				A56733CC2328C6EC0015C41D /* Resources */,
@@ -322,6 +348,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49E9EE038DE25AFB42DCCDAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StanfordAssignment4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A56734402328DC330015C41D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A56733CA2328C6EC0015C41D /* Sources */ = {
@@ -516,6 +584,7 @@
 		};
 		A56733E12328C6ED0015C41D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB77AB9BDA18ED33430CE81F /* Pods-StanfordAssignment4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +603,7 @@
 		};
 		A56733E22328C6ED0015C41D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBEC0AF3215E6AAF9405027 /* Pods-StanfordAssignment4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
